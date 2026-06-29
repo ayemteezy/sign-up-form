@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- js -->
+    <script type="module" src="/index.js"></script>
+    <title>Odin | Sign-Up Form</title>
+  </head>
+  <body>
+    <main class="flex">
+      <div class="image-container">
+        <img src="/images/background.jpg" alt="an image of a fern" />
+      </div>
+      <div class="logo">
+        <img src="/images/logo.png" alt="logo" />
+        <h1>ODIN</h1>
+      </div>
+      <div class="flex-col content">
+        <div class="container flex-col heading">
+          <h2>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. <br />
+            Sign up <i>now</i> to get started.
+          </h2>
+          <h2>You <i>know</i> you want to.</h2>
+        </div>
+        <div class="card flex-col">
+          <h2>Let&apos;s do this!</h2>
+          <form id="sign-up" action="" class="flex-col">
+            <input-container>
+              <t-input
+                name="firstName"
+                label="first name"
+                type="text"
+                pattern="[A-ZÑ][A-Za-zñÑ\s\-]*"
+                required
+              ></t-input>
+              <t-input
+                name="lastName"
+                label="last name"
+                type="text"
+                pattern="[A-ZÑ][A-Za-zñÑ\s\-]*"
+                required
+              ></t-input>
+            </input-container>
+            <input-container>
+              <t-input
+                name="email"
+                label="email"
+                type="email"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                required
+              ></t-input>
+              <t-input
+                name="phoneNumber"
+                label="phone number"
+                type="text"
+                minlength="1"
+                maxlength="15"
+                pattern="(?:\+?63|0)[ -]?9[0-9]{2}[ -]?[0-9]{3}[ -]?[0-9]{4}"
+                required
+              ></t-input>
+            </input-container>
+            <input-container>
+              <t-input
+                name="password"
+                label="password"
+                type="password"
+                pattern="[A-Za-z0-9@_\-]{8,}"
+                required
+              ></t-input>
+              <t-input
+                name="confirmPassword"
+                label="confirm password"
+                type="password"
+                pattern="[A-Za-z0-9@_\-]{8,}"
+                required
+              ></t-input>
+            </input-container>
+          </form>
+        </div>
+        <div class="container footer">
+          <button type="submit" form="sign-up">Create Account</button>
+          <p>Already have an account?<a href="#">Log in</a></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
