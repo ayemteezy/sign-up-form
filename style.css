@@ -214,21 +214,15 @@ summary {
 /* fonts */
 @font-face {
   font-family: "Norse";
-<<<<<<< HEAD
   src: url("/font/Norse.woff2");
-=======
   src: url("font/Norse.woff2");
->>>>>>> 48ac1b71e2cde597d3ceef92cbfdb0c02ef3d53d
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Norse";
-<<<<<<< HEAD
   src: url("/font/Norsebold.woff2");
-=======
   src: url("font/Norsebold.woff2");
->>>>>>> 48ac1b71e2cde597d3ceef92cbfdb0c02ef3d53d
   font-weight: 700;
 }
 
@@ -275,8 +269,12 @@ summary {
 
 /* globals */
 body {
-  min-height: 100vh;
+  height: 100vh;
   overflow: hidden;
+}
+
+main {
+  height: 100%;
 }
 
 h1 {
@@ -410,6 +408,7 @@ input:focus {
   background-color: var(--color-secondary);
   gap: var(--spacing-sm);
   flex: 1;
+  justify-content: center;
 }
 
 .heading {
