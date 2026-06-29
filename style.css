@@ -214,13 +214,21 @@ summary {
 /* fonts */
 @font-face {
   font-family: "Norse";
+<<<<<<< HEAD
   src: url("/font/Norse.woff2");
+=======
+  src: url("font/Norse.woff2");
+>>>>>>> 48ac1b71e2cde597d3ceef92cbfdb0c02ef3d53d
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Norse";
+<<<<<<< HEAD
   src: url("/font/Norsebold.woff2");
+=======
+  src: url("font/Norsebold.woff2");
+>>>>>>> 48ac1b71e2cde597d3ceef92cbfdb0c02ef3d53d
   font-weight: 700;
 }
 

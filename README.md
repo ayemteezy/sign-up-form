@@ -41,7 +41,7 @@
     <a href="https://github.com/ayemteezy/sign-up-form"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ayemteezy/sign-up-form">View Demo</a>
+    <a href="https://ayemteezy.github.io/sign-up-form/">View Demo</a>
     &middot;
     <a href="https://github.com/ayemteezy/sign-up-form/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
     &middot;
@@ -79,7 +79,7 @@
 
 ## About The Project
 
-[![Sign Up Form Screen Shot][product-screenshot]](https://example.com)
+[![Sign Up Form Screen Shot][product-screenshot]](https://ayemteezy.github.io/sign-up-form/)
 
 This project is part of [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)'s Intermediate HTML and CSS course. The goal was to build a sign-up form for an imaginary service, putting into practice skills in intermediate HTML concepts, CSS styling, and client-side form validation.
 
