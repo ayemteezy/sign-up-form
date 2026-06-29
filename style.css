@@ -215,14 +215,12 @@ summary {
 @font-face {
   font-family: "Norse";
   src: url("/font/Norse.woff2");
-  src: url("font/Norse.woff2");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Norse";
   src: url("/font/Norsebold.woff2");
-  src: url("font/Norsebold.woff2");
   font-weight: 700;
 }
 
